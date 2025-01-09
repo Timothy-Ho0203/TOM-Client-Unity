@@ -639,7 +639,6 @@ Transform:
   m_Children:
   - {fileID: 326646216}
   - {fileID: 911971256}
-  - {fileID: 695829265}
   - {fileID: 585053732}
   - {fileID: 69833330}
   - {fileID: 713712315}
@@ -2328,8 +2327,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695829264}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2337,7 +2336,7 @@ Transform:
   - {fileID: 1913897365}
   - {fileID: 1523702866}
   - {fileID: 2204069621762620892}
-  m_Father: {fileID: 208972785}
+  m_Father: {fileID: 1064463428}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -3735,6 +3734,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 242704101}
+  - {fileID: 695829265}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070262205
@@ -8897,6 +8897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configLoader: {fileID: 2127460723}
   AutoConnect: 1
+  ReconnectionInterval: 5
 --- !u!1 &1913897364
 GameObject:
   m_ObjectHideFlags: 0
