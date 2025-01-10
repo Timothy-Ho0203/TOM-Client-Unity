@@ -26,8 +26,14 @@ namespace TOM.Apps
 
         public void LoadHomeScene()
         {
-            loadScene("Home");
+            loadScene("Template");
         }
+
+        public void LoadFavoriteScene()
+        {
+            loadScene("Favorite");
+        }
+
 
         public void LoadMartialArtScene()
         {

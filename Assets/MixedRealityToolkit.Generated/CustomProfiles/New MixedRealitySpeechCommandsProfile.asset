@@ -143,7 +143,7 @@ MonoBehaviour:
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Distance
+    keyword: Favorite
     keyCode: 0
     action:
       id: 0
